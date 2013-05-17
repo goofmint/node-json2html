@@ -1,0 +1,20 @@
+{ "name": "json2html Web server"
+, "description": "node Web server that render HTML from JSON and Mustache"
+, "keywords": ["json", "web"]
+, "version" : "0.0.1"
+, "homepage": "http://www.moongift.jp/"
+, "author" : "Atsushi Nakatsugawa <atsushi@moongift.jp>"
+, "main" : "app.js"
+, "devDependencies": {
+    "mu2" : "0.5.17"
+,   "express": "3.x"
+,   "mu2express": "0.0.1"
+,   "request-json": "*"
+  }
+, "peerDependencies": {
+    "mu2" : "0.5.17"
+,   "express": "3.x"
+,   "mu2express": "0.0.1"
+,   "request-json": "*"
+  }
+}
